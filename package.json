@@ -7,7 +7,10 @@
     "index.js"
   ],
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js",
+    "preversion": "npm test",
+    "version": "standard-changelog && git add CHANGELOG.md",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/dumberjs/querystring-es5/issues"
   },
-  "homepage": "https://github.com/dumberjs/querystring-es5#readme"
+  "homepage": "https://github.com/dumberjs/querystring-es5#readme",
+  "devDependencies": {
+    "standard-changelog": "^2.0.24"
+  }
 }
