@@ -1,4 +1,4 @@
-# querystring-es5
+# querystring-browser-stub
 
 Node API compliant querystring module for IE9 and above.
 
