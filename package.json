@@ -1,0 +1,25 @@
+{
+  "name": "querystring-es5",
+  "version": "0.1.0",
+  "description": "Node API compliant querystring module for IE9 and above",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumberjs/querystring-es5.git"
+  },
+  "keywords": [
+    "querystring"
+  ],
+  "author": "Chunpeng Huo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumberjs/querystring-es5/issues"
+  },
+  "homepage": "https://github.com/dumberjs/querystring-es5#readme"
+}
